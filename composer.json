@@ -1,0 +1,21 @@
+{
+    "name": "hien/extjs-for-laravel",
+    "description": "extjs4.2 && laravel5.5",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hien",
+            "email": "568402951@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hien\\Extjs\\": "src/"
+        }
+    }
+}
