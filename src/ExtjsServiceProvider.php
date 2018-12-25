@@ -24,6 +24,7 @@ class ExtjsServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/views' => base_path('resources/views/vendor/extjs'),  // 发布视图目录到resources 下
             __DIR__.'/config/extjs.php' => config_path('extjs.php'), // 发布配置文件到 laravel 的config 下
+            __DIR__.'/../public' => base_path('public')
         ]);
     }
 
